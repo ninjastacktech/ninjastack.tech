@@ -442,9 +442,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 0.75rem;
   margin-right: 0.75rem;
 }
-.mx-8 {
-  margin-left: 2rem;
-  margin-right: 2rem;
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .mx-auto {
   margin-left: auto;
@@ -480,8 +480,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-5 {
   width: 1.25rem;
 }
-.w-1\/4 {
-  width: 25%;
+.w-4\/5 {
+  width: 80%;
 }
 .w-48 {
   width: 12rem;
@@ -494,6 +494,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .flex-col {
   flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
 }
 .items-center {
   align-items: center;
@@ -670,6 +673,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 @media (min-width: 768px) {
+
+  .md\:mx-8 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .md\:w-1\/4 {
+    width: 25%;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
 
   .md\:p-8 {
     padding: 2rem;
