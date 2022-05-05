@@ -1,12 +1,18 @@
 .App {
   position: relative;
 }
-
-.background-img {
-  opacity: 0.6;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
+html { box-sizing: border-box; }
+body {
+  overflow-y: scroll;
+  padding-bottom: 30px;
+  padding-top: 70px;
+  background-color: #363636;
+  min-height: 100vh;	
+	background-image: url("/src/images/background3.png");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: cover;
+  margin: 0;
+  box-sizing: border-box;
 }
