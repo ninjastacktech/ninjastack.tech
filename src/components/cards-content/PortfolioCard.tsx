@@ -12,11 +12,11 @@ export function PortfolioCard(props: IPortfolioCardProps) {
         className="w-80 text-center"
         backgroundFlavor={CardBackgroundFlavor.yellow}
         title="NFT Portfolio"
-        defaultPosition={{ x: 800, y: -20 }}
+        defaultPosition={{ x: 800, y: 200 }}
       >
-        <div className="flex-2 flex justify-center">
+        {/* <div className="flex-2 flex justify-center">
           <img className="w-28 h-28" src={pixelNinjaImg3} alt="NFT Bots" />
-        </div>
+        </div> */}
         <div className="flex-1 mt-6 flex flex-col items-center">
           <div className="text-sm">Built with our C# SDK for OpenSea</div>
           <a

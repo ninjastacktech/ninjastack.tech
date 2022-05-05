@@ -12,11 +12,11 @@ export function BotCard(props: IBotCardProps) {
         className="w-80 text-center"
         backgroundFlavor={CardBackgroundFlavor.gray}
         title="NFT Sales Bot"
-        defaultPosition={{ x: 400, y: 300 }}
+        defaultPosition={{ x: 400, y: 400 }}
       >
-        <div className="flex-2 flex justify-center">
+        {/* <div className="flex-2 flex justify-center">
           <img className="w-28 h-28" src={pixelNinjaImg4} alt="NFT Bots" />
-        </div>
+        </div> */}
         <div className="flex-1 mt-6 flex flex-col items-center">
           <div className="text-sm">Posts sales from any marketplace</div>
           <a
