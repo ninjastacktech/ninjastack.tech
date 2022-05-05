@@ -1,10 +1,7 @@
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
-  darkMode: "class",
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    fontFamily: {
-      display: ["Inconsolata", "Menlo", "monospace"],
-      body: ["Inconsolata", "Menlo", "monospace"],
-    },
+    extend: {},
   },
+  plugins: [],
 };
