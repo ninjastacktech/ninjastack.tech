@@ -9,7 +9,6 @@ export function TeamCard(props: ITeamCardProps) {
     <DragCard
       className="w-80"
       title="Team"
-      backgroundFlavor={CardBackgroundFlavor.gray}
       defaultPosition={{ x: 350, y: 10 }}
     >
       <div className="mb-4">Who we are</div>

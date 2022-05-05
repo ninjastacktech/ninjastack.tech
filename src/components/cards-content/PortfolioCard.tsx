@@ -8,7 +8,6 @@ export function PortfolioCard(props: IPortfolioCardProps) {
   return (
     <DragCard
       className="w-80 text-center"
-      backgroundFlavor={CardBackgroundFlavor.gray}
       title="NFT Portfolio"
       defaultPosition={{ x: 1200, y: 250 }}
     >

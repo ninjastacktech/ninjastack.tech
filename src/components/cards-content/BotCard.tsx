@@ -8,7 +8,6 @@ export function BotCard(props: IBotCardProps) {
   return (
     <DragCard
       className="w-80 text-center"
-      backgroundFlavor={CardBackgroundFlavor.gray}
       title="NFT Sales Bot"
       defaultPosition={{ x: 1100, y: 450 }}
     >

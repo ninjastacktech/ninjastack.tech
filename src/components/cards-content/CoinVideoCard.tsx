@@ -1,7 +1,7 @@
 import ReactPlayer from "react-player";
 import { DragCard } from "../Card";
 import coinVideo from "../../videos/coin.mp4";
-import { useEffect } from "react";
+import { CardBackgroundFlavor } from "../../models/card.model";
 
 export interface ICoinVideoCardProps {}
 
@@ -11,6 +11,7 @@ export function CoinVideoCard(props: ICoinVideoCardProps) {
       className="w-32 rounded-lg"
       defaultPosition={{ x: 1350, y: 100 }}
       noPadding={true}
+      backgroundFlavor={CardBackgroundFlavor.none}
     >
       <ReactPlayer
         loop={true}
