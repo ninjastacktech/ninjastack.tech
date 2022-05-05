@@ -10,7 +10,7 @@ export function TeamCard(props: ITeamCardProps) {
       className="w-80"
       title="Team"
       backgroundFlavor={CardBackgroundFlavor.gray}
-      defaultPosition={{ x: -950, y: 400 }}
+      defaultPosition={{ x: -850, y: 400 }}
     >
       <div className="mb-4">Who we are</div>
 

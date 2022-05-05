@@ -28,6 +28,6 @@ code {
 
 @layer components {
   .box {
-    @apply flex flex-col rounded md:rounded-lg p-4 h-fit;
+    @apply flex flex-col rounded md:rounded-lg h-fit;
   }
 }

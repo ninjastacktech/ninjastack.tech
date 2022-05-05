@@ -1,6 +1,7 @@
 import { CardBackgroundFlavor } from "../models/card.model";
 import { DragCard } from "./Card";
 import { BotCard } from "./cards-content/BotCard";
+import { CoinVideoCard } from "./cards-content/CoinVideoCard";
 import { PortfolioCard } from "./cards-content/PortfolioCard";
 import { RoadmapCard } from "./cards-content/RoadmapCard";
 import { TeamCard } from "./cards-content/TeamCard";
@@ -31,6 +32,8 @@ export default function CardsContainer() {
       <BotCard></BotCard>
       <RoadmapCard></RoadmapCard>
       <TeamCard></TeamCard>
+
+      <CoinVideoCard></CoinVideoCard>
     </div>
   );
 }
