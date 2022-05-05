@@ -2,10 +2,12 @@ import { CardBackgroundFlavor } from "../models/card.model";
 import { DragCard } from "./Card";
 import { BotCard } from "./cards-content/BotCard";
 import { PortfolioCard } from "./cards-content/PortfolioCard";
+import { RoadmapCard } from "./cards-content/RoadmapCard";
+import { TeamCard } from "./cards-content/TeamCard";
 
 export default function CardsContainer() {
   return (
-    <div className="flex flex-row">
+    <div className="flex flex-row h-[40rem]">
       <DragCard
         className="w-80"
         title="Our Mission"
@@ -25,24 +27,10 @@ export default function CardsContainer() {
         </div>
       </DragCard>
 
-      {/* <DragCard
-        className="w-80"
-        backgroundFlavor={CardBackgroundFlavor.yellow}
-        title="Our Projects"
-        defaultPosition={{ x: 800, y: -20 }}
-      >
-        <div className="mb-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </div>
-
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-          turpis purus, consectetur consequat sem non, auctor scelerisque nisi.
-        </div>
-      </DragCard> */}
-
       <PortfolioCard></PortfolioCard>
       <BotCard></BotCard>
+      <RoadmapCard></RoadmapCard>
+      <TeamCard></TeamCard>
     </div>
   );
 }

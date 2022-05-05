@@ -10,7 +10,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: #f4eee5;
+  overflow-y: hidden;
+
+  /* background-color: #f4eee5; */
+
+  /* min-height: 100%;
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; */
 }
 
 code {

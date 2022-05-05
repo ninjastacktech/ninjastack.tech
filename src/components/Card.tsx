@@ -24,7 +24,7 @@ export function DragCard({
     <Draggable nodeRef={nodeRef} defaultPosition={defaultPosition}>
       <div
         ref={nodeRef}
-        className={backgroundFlavor + " " + className + " box shadow-lg"}
+        className={backgroundFlavor + " " + className + " box shadow-lg bg-opacity-80"}
       >
         {title && <h4 className="font-medium mb-4 cursor-move">{title}</h4>}
         {children}
