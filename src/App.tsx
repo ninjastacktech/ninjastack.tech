@@ -1,12 +1,13 @@
-import { useState } from 'react'
-import logo from './images/logo.svg'
-import './css/App.css'
+import { useState } from "react";
+import logo from "./images/logo.svg";
+import "./css/App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <div className="App">
+      <h1 className="text-3xl font-bold underline">Hello world!</h1>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>
@@ -27,7 +28,7 @@ function App() {
           >
             Learn React
           </a>
-          {' | '}
+          {" | "}
           <a
             className="App-link"
             href="https://vitejs.dev/guide/features.html"
@@ -39,7 +40,7 @@ function App() {
         </p>
       </header>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
