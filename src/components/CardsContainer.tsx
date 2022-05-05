@@ -10,21 +10,16 @@ export default function CardsContainer() {
   return (
     <div className="flex flex-row h-[40rem]">
       <DragCard
-        className="w-80"
-        title="Our Mission"
+        className="w-80 card"
+        title="Sacred Ninja Oath"
         defaultPosition={{ x: 100, y: 20 }}
       >
         <div className="mb-4">
-          We want to create tools for blockchain creators and developers
+          Uncovered from the bowels of the infamous Ninja clan in Iga, a mountain-shrouded town near the ancient imperial capital of Kyoto, stands our pledge of high morality to act as modern public servants in the emerging Web3 world.          
         </div>
 
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-          turpis purus, consectetur consequat sem non, auctor scelerisque nisi.
-          Praesent a nisl ac ipsum efficitur rutrum. Mauris iaculis vestibulum
-          velit sit amet bibendum. Vivamus enim sem, condimentum ac magna quis,
-          placerat lobortis nisi. Proin quis ipsum velit. Nunc et vehicula
-          lectus, nec aliquam ante.{" "}
+        <div className="mb-4">
+          We hereby vow to enrich the ancient Bansenshukai with modern tools that will be of benefit to blockchain creators and developers alike.
         </div>
       </DragCard>
 
