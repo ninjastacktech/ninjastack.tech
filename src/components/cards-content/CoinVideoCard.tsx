@@ -6,23 +6,21 @@ import { useEffect } from "react";
 export interface ICoinVideoCardProps {}
 
 export function CoinVideoCard(props: ICoinVideoCardProps) {
-
   return (
-    <div>
-      <DragCard
-        className="w-32"
-        defaultPosition={{ x: -1000, y: 200 }}
-        noPadding={true}
-      >
-          <ReactPlayer
-            loop={true}
-            playing={true}
-            muted={true}
-            url={coinVideo}
-            width={140}
-            height={140}
-          />
-      </DragCard>
-    </div>
+    <DragCard
+      className="w-32 rounded-lg"
+      defaultPosition={{ x: 1350, y: 100 }}
+      noPadding={true}
+    >
+      <ReactPlayer
+        loop={true}
+        playing={true}
+        muted={true}
+        url={coinVideo}
+        width={140}
+        height={140}
+        style={{ borderRadius: "0.5rem", overflow: "hidden" }}
+      />
+    </DragCard>
   );
 }

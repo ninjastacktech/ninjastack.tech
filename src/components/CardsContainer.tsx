@@ -8,11 +8,11 @@ import { TeamCard } from "./cards-content/TeamCard";
 
 export default function CardsContainer() {
   return (
-    <div className="flex flex-row h-[40rem]">
+    <div className="flex flex-row h-[40rem] relative">
       <DragCard
         className="w-80 card"
         title="Sacred Ninja Oath"
-        defaultPosition={{ x: 100, y: 20 }}
+        defaultPosition={{ x: 50, y: 150 }}
       >
         <div className="mb-4">
           Uncovered from the bowels of the infamous Ninja clan in Iga, a mountain-shrouded town near the ancient imperial capital of Kyoto, stands our pledge of high morality to act as modern public servants in the emerging Web3 world.          

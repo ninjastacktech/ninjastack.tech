@@ -30,7 +30,7 @@ export function DragCard({
           backgroundFlavor +
           " " +
           className +
-          " box shadow-lg bg-opacity-80 " +
+          " box shadow-lg bg-opacity-80 absolute " +
           (noPadding ? "" : "p-4")
         }
       >
