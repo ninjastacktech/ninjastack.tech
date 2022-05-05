@@ -8,7 +8,7 @@ export function RoadmapCard(props: IRoadmapCardProps) {
     <DragCard
       className="w-80"
       title="Roadmap"
-      defaultPosition={{ x: 50, y: 0 }}
+      defaultPosition={{ x: 1000, y: -20 }}
     >
       <div className="mb-4">We're gonna do lots of cool stuff</div>
 
