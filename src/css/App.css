@@ -4,8 +4,7 @@
 html { box-sizing: border-box; }
 body {
   overflow-y: scroll;
-  padding-bottom: 30px;
-  padding-top: 70px;
+  padding-bottom: 30px;  
   background-color: #363636;
   min-height: 100vh;	
 	background-image: url("/src/images/background3.png");
