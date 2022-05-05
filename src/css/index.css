@@ -20,6 +20,6 @@ code {
 
 @layer components {
   .box {
-    @apply rounded md:rounded-lg p-4;
+    @apply flex flex-col rounded md:rounded-lg p-4 h-fit;
   }
 }
