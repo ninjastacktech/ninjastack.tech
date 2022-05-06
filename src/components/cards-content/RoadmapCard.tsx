@@ -6,7 +6,7 @@ export interface IRoadmapCardProps {}
 export function RoadmapCard(props: IRoadmapCardProps) {
   return (
     <DragCard
-      className="w-80"
+      className="md:w-80"
       title="Roadmap"
       defaultPosition={{ x: 1000, y: -20 }}
     >

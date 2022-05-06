@@ -7,7 +7,7 @@ export interface IPortfolioCardProps {}
 export function PortfolioCard(props: IPortfolioCardProps) {
   return (
     <DragCard
-      className="w-80 text-center"
+      className="md:w-80 text-center"
       title="NFT Portfolio"
       defaultPosition={{ x: 1200, y: 250 }}
     >

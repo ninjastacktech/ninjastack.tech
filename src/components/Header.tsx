@@ -5,7 +5,7 @@ export default function Header() {
     <header className="relative">
       <div className="p-4 sm:p-6 md:p-8">
         <div className="relative flex items-center justify-between font-semibold text-sm leading-6 text-slate-600">
-          <img className="w-96" src={logoimg}></img>
+          <img className="w-64 md:w-96" src={logoimg}></img>
           <div className="flex items-center">
             <a
               href="https://github.com/ninjastacktech"

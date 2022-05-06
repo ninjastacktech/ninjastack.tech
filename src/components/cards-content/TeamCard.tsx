@@ -7,7 +7,7 @@ export interface ITeamCardProps {}
 export function TeamCard(props: ITeamCardProps) {
   return (
     <DragCard
-      className="w-80"
+      className="md:w-80"
       title="Team"
       defaultPosition={{ x: 350, y: 10 }}
     >
