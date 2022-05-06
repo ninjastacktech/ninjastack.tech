@@ -1,0 +1,8 @@
+/* .ninjaCarousel .carousel.carousel-slider .control-arrow {
+  background: rgba(0, 0, 0, 0.4);
+  opacity: initial;
+} */
+
+.ninjaCarousel .carousel-status {
+    display: none;
+}

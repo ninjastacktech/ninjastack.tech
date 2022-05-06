@@ -1,29 +1,27 @@
-import * as React from "react";
-import { CardBackgroundFlavor } from "../../models/card.model";
+import { Carousel } from "react-responsive-carousel";
 import { DragCard } from "../Card";
+import pixelFucker3 from "../../images/ninja/pixels/ninja-pixel-collection-1.3.png";
+import pixelFucker4 from "../../images/ninja/pixels/ninja-pixel-collection-1.4.png";
 
 export interface IPortfolioCardProps {}
 
 export function PortfolioCard(props: IPortfolioCardProps) {
   return (
     <DragCard
-      className="md:w-80 text-center"
-      title="NFT Portfolio"
+      className="md:w-64 text-center"
+      title="Open source tools"
       defaultPosition={{ x: 1200, y: 250 }}
     >
-      {/* <div className="flex-2 flex justify-center">
-          <img className="w-28 h-28" src={pixelNinjaImg3} alt="NFT Bots" />
-        </div> */}
-      <div className="flex-1 mt-6 flex flex-col items-center">
-        <div className="text-sm">Built with our C# SDK for OpenSea</div>
-        <a
-          className="cursor-pointer rounded-lg font-large font-bold mt-4 flex justify-center w-3/4 p-1"
-          href="https://portfolio.ninjastack.tech/"
-          target="_blank"
-        >
-          Go to App
-        </a>
-      </div>
+      <Carousel className="ninjaCarousel" infiniteLoop={true} showThumbs={false} autoPlay={true}>
+        <div>
+          <img src={pixelFucker3}/>
+          <p className="cursor-pointer font-large font-bold mt-4 mb-8 flex justify-center p-1">Portfolio</p>
+        </div>
+        <div>
+          <img src={pixelFucker4} />
+          <p className="cursor-pointer font-large font-bold mt-4 mb-8 flex justify-center p-1">Socket</p>
+        </div>
+      </Carousel>
     </DragCard>
   );
 }
