@@ -8,7 +8,7 @@ const steps = [
   { name: 'Council', description: 'In the midst of the night the ancient ninja council was reunited and pledged their vows. A weekly recurrence was set to monitor and advise the development.', href: '#', status: 'complete' },
   {
     name: 'A different kind of bot',
-    description: 'Observing the NFT space and discord communities, our ninjas gathered information and devised blueprints for a different kind of bot. Tailored with their own skills, the bot will be the digital incarnation of a ninja. Fast, reliable, secure, across gems, looks or seas.',
+    description: 'Observing the NFT space and discord communities, our ninjas gathered information and devised blueprints for a different kind of bot. Tailored with their own skills, the bot would be the digital incarnation of a ninja. Fast, reliable, secure, across gems, looks or seas.',
     href: '#',
     status: 'complete',
   },
@@ -17,7 +17,7 @@ const steps = [
   { name: 'Preview', description: 'Iusto et officia maiores porro ad non quas.', href: '#', status: 'upcoming' },
 ]
 
-function classNames(...classes) {
+function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
 
