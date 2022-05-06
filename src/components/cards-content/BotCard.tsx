@@ -9,7 +9,7 @@ export function BotCard(props: IBotCardProps) {
     <DragCard
       className="md:w-80 text-center"
       title="NFT Sales Bot"
-      defaultPosition={{ x: 950, y: 400 }}
+      defaultPosition={{ x: 850, y: 450 }}
     >
       {/* <div className="flex-2 flex justify-center">
           <img className="w-28 h-28" src={pixelNinjaImg4} alt="NFT Bots" />

@@ -10,7 +10,7 @@ export function PortfolioCard(props: IPortfolioCardProps) {
     <DragCard
       className="md:w-64 text-center"
       title="Open source tools"
-      defaultPosition={{ x: 1200, y: 250 }}
+      defaultPosition={{ x: 1200, y: 200 }}
     >
       <Carousel className="ninjaCarousel" infiniteLoop={true} showThumbs={false} autoPlay={true}>
         <div>

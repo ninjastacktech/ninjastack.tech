@@ -9,7 +9,7 @@ export function CoinVideoCard(props: ICoinVideoCardProps) {
   return (
     <DragCard
       className="hidden md:flex md:w-32 rounded-lg"
-      defaultPosition={{ x: 1350, y: 100 }}
+      defaultPosition={{ x: 1350, y: 50 }}
       noPadding={true}
       backgroundFlavor={CardBackgroundFlavor.none}
     >
