@@ -3,7 +3,7 @@
 }
 
 html { 
-  box-sizing: border-box; 
+  box-sizing: border-box;   
 }
 
 body {
@@ -17,11 +17,14 @@ body {
 	background-position: center center;
 	background-size: cover;
   margin: 0;
-  box-sizing: border-box;
+  box-sizing: border-box;    
 }
 
-.card h4{
+div{
   font-family: "Inconsolata";
+}
+
+.card h4{  
   font-weight: bold;
   font-size: 18px;
   text-align: justify;
